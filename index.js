@@ -1,3 +1,3 @@
-const dgram = require('node:dgram');
+import { createSocket } from 'node:dgram';
 
-const server = dgram.createSocket('udp4');
+const server = createSocket('udp4');
